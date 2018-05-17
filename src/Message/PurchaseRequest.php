@@ -46,12 +46,12 @@ class PurchaseRequest extends AbstractRequest
 
     public function getStatusUrl()
     {
-        return $this->getParameter('serviceUrl');
+        return $this->getParameter('statusUrl');
     }
 
     public function setStatusUrl($value)
     {
-        return $this->setParameter('serviceUrl', $value);
+        return $this->setParameter('statusUrl', $value);
     }
 
     public function getPaymentUrl()
